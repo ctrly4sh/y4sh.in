@@ -1,2 +1,2 @@
 # y4sh.in
-my personal portfolio trying to made while learning react at the same time , with react and tailwind css !!
+My personal portfolio website trying to made while learning react at the same time also be using tailwind css for styling !!
