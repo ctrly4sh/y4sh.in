@@ -4,7 +4,7 @@ import "./App.css";
 const App = () => {
   const [text, setText] = useState("");
   const phrases = ["y4sh coming soon ...."];
-  const speed = 100; // Adjust typing speed (milliseconds)
+  const speed = 100; //speed of the text 
 
   useEffect(() => {
     let currentIndex = 0;
@@ -18,7 +18,7 @@ const App = () => {
         setTimeout(() => {
           setText("");
           currentIndex = 0;
-        }, 1000); // Adjust the delay before starting the next typing
+        }, 1000); //
       }
     }, speed);
 
@@ -26,8 +26,8 @@ const App = () => {
   }, []);
 
   return (
-    <div className="center">
-      <h1 className="text-white">{text}</h1>
+    <div className="grid h-screen place-items-center">
+      <h1 className="text-white text-3xl">{text}</h1>
     </div>
   );
 };
