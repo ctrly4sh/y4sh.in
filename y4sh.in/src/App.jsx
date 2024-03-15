@@ -1,35 +1,15 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "./App.css";
 
-const App = () => {
-  const [text, setText] = useState("");
-  const phrases = ["y4sh coming soon ...."];
-  const speed = 100; //speed of the text 
-
-  useEffect(() => {
-    let currentIndex = 0;
-    let currentText = "";
-    const interval = setInterval(() => {
-      currentText += phrases[0][currentIndex];
-      setText(currentText);
-      currentIndex++;
-      if (currentIndex === phrases[0].length) {
-        clearInterval(interval);
-        setTimeout(() => {
-          setText("");
-          currentIndex = 0;
-        }, 1000); //
-      }
-    }, speed);
-
-    return () => clearInterval(interval);
-  }, []);
-
+function App() {
   return (
-    <div className="grid h-screen place-items-center">
-      <h1 className="text-white text-3xl">{text}</h1>
+    <div id="main" className=" h-screen w-screen text-center bg-[url(/src/assets/vagabond.png)] bg-center">
+      <h1 className="pt-2 text-font-thin text-2xl font-fira text-black ">
+        This is yash, y4sh coming soon .......
+      </h1>
     </div>
   );
-};
+}
+
 
 export default App;
