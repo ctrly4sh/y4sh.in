@@ -9,7 +9,7 @@ function App() {
         className=" h-screen w-screen text-center bg-[url(/src/assets/vagabond.png)] bg-center text-font-thin text-2xl font-fira text-black"
       >
         <h1>y4sh</h1>
-        <h1>Programmer || Gamer || Critic</h1>
+        <h1>Programmer || Gamer || Critic || Human</h1>
       </div >
     </>
   );
