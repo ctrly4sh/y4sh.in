@@ -6,9 +6,7 @@ function Navbar() {
       <nav className="">
         <li>Projects</li>
         <li>yash</li>
-        <li>
-          human
-          </li>
+        <li></li>
       </nav>
     </>
   );
