@@ -14,6 +14,7 @@ module.exports = {
     },
     fontFamily: {
       fira: ["Fira Code", "monospace"],
+      pixelify: ["Pixelify Sans", "sans-serif"]
     },
   },
   plugins: [],
